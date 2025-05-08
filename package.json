@@ -72,6 +72,19 @@
       "json",
       "ts"
     ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/",
+      "<rootDir>/.eslintrc.js",
+      "<rootDir>/node_modules/",
+      "<rootDir>/test/",
+      "<rootDir>/build/",
+      "<rootDir>/coverage/",
+      "<rootDir>/src/main.ts",
+      "<rootDir>/src/app.module.ts",
+      "<rootDir>/src/.*\\.module\\.ts$",
+      "<rootDir>/src/.*\\.repository\\.ts$",
+      "<rootDir>/src/schemas/"
+    ],
     "rootDir": "src",
     "testRegex": ".*\\.spec\\.ts$",
     "transform": {
